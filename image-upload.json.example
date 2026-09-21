@@ -1,0 +1,16 @@
+{
+  "endpoint": "https://example.com/api/upload",
+  "method": "POST",
+  "field": "file",
+  "headers": {},
+  "token": "",
+  "tokenHeader": "Authorization",
+  "tokenPrefix": "Bearer ",
+  "extraFields": {},
+  "multiple": true,
+  "autoUpload": true,
+  "maxSizeMB": 10,
+  "accept": ["png", "jpg", "jpeg", "gif", "webp", "bmp"],
+  "responsePath": "data.url",
+  "pasteResult": true
+}
