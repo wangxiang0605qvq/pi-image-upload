@@ -11,6 +11,14 @@ pi 扩展：本地图片选择/上传，输入框上方显示缩略图条。
 
 ## 安装
 
+### 方式一：作为 pi 包安装（推荐）
+
+```bash
+pi install git:github.com/wangxiang0605qvq/pi-image-upload
+```
+
+### 方式二：手动复制
+
 ```bash
 cp image-upload.ts ~/.pi/agent/extensions/image-upload.ts
 cp image-upload.json.example ~/.pi/agent/image-upload.json   # 再按需修改
