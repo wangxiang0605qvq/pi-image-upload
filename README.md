@@ -28,3 +28,7 @@ cp image-upload.json.example ~/.pi/agent/image-upload.json   # 再按需修改
 无任何硬编码密钥；token 只从配置或环境变量读取。
 
 然后 `/reload`。
+
+## 版权
+
+著作权归作者所有，保留一切权利。详见 [LICENSE](LICENSE)。
